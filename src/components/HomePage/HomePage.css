@@ -79,6 +79,10 @@
   font-family: "Azeret Mono", monospace;
   color: white;
   font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  right: 0px;
 }
 
 .nav {
@@ -108,6 +112,11 @@
 }
 
 .nav-link:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+
+.email-contact:hover {
   padding-bottom: 5px;
   border-bottom: 3px solid white;
 }

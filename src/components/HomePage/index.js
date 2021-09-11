@@ -24,12 +24,13 @@ function HomePage(){
         offset: 30
       })
 
+
     return(
         <div>
             <div className='nav'>
                 <div onClick={scrollProjects} className='nav-link'>Projects</div>
                 <div onClick={scrollSkills} className='nav-link'>Skills</div>
-                <div className='email-contact'>owiwamasa@gmail.com</div>
+                <a href='mailto:owiwamasa@gmail.com' className='email-contact'>owiwamasa@gmail.com</a>
             </div>
             <HeaderSection />
             <div className='link-container'>
