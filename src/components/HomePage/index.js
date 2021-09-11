@@ -4,6 +4,7 @@ import HeaderSection from '../HeaderSection'
 import Projects from '../Projects'
 import headshot from '../../skill-icons/headshot.png'
 import Scroll from 'react-scroll'
+import resume from '../../skill-icons/Iwamasa_Owen_Resume.pdf'
 
 function HomePage(){
     const Element  = Scroll.Element;
@@ -48,7 +49,7 @@ function HomePage(){
                 </div> */}
                 <div className='link-box'>
                     <div className='link'>
-                        <a href='https://www.linkedin.com/in/owen-iwamasa-6ab3a9166/'>
+                        <a href={resume}>
                             <i class="far fa-file"></i>
                         </a>
                     </div>
