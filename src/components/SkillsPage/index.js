@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './SkillsPage.css'
 import js from '../../skill-icons/javascript.svg'
 import python from '../../skill-icons/python.svg'
@@ -30,17 +30,17 @@ function SkillsPage(){
     const [show12, setShow12] = useState(true)
     const [show13, setShow13] = useState(true)
     const [show14, setShow14] = useState(true)
-    const setShowArr = [setShow1, setShow2, setShow3, setShow4, setShow5, setShow6, setShow7, setShow8, setShow9, setShow10, setShow11, setShow12, setShow13, setShow14]
+    // const setShowArr = [setShow1, setShow2, setShow3, setShow4, setShow5, setShow6, setShow7, setShow8, setShow9, setShow10, setShow11, setShow12, setShow13, setShow14]
 
-    useEffect(async() => {
-        const interval = setInterval(() => {
-            let setShow = setShowArr.shift()
-            setShow(true)
-            if (!setShowArr.length) {
-                clearInterval(interval)
-            }
-          }, 70);
-    }, [])
+    // useEffect(async() => {
+    //     const interval = setInterval(() => {
+    //         let setShow = setShowArr.shift()
+    //         setShow(true)
+    //         if (!setShowArr.length) {
+    //             clearInterval(interval)
+    //         }
+    //       }, 70);
+    // }, [])
 
     return(
         <div>
