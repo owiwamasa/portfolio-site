@@ -1,0 +1,304 @@
+.projects-header {
+  text-align: left;
+  margin-left: 63px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 50px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.66);
+  padding-bottom: 20px;
+  width: 90%;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.projects {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px rgb(97, 97, 97);
+  border-radius: 30px;
+  width: 400px;
+  height: 250px;
+  background-color: #fa4a18;
+  transition: all 1.5s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  margin: 40px;
+}
+
+.hullabaloo-card {
+  background-color: #f4ff2c;
+}
+
+.sidewalk-card {
+  background-color: #a50e02;
+}
+
+.project-card:hover {
+  width: 820px;
+  height: 480px;
+}
+
+.project-page img {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  right: 420px;
+  top: 115px;
+  border: 1px solid white;
+}
+
+.project-page img {
+  transition: all 1.8s ease-in-out;
+}
+
+.project-card:hover > .project-page img {
+  right: 335px;
+}
+
+.hullabaloo-page img {
+  top: 135px;
+  border: 1px solid black;
+}
+
+.sidewalk-page img {
+  width: 380px;
+  height: auto;
+  top: 130px;
+}
+
+.project-card:hover > .sidewalk-page img {
+  right: 375px;
+}
+
+.project-image img {
+  width: 250px;
+  height: auto;
+}
+
+.hullabaloo-image img {
+  width: 130px;
+  height: auto;
+}
+
+.sidewalk-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidewalk-image img {
+  width: 100px;
+  height: auto;
+}
+
+.project-card:hover > .hullabaloo-image img {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-title {
+  color: black;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sidewalk-title {
+  color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+.project-image {
+  transition: all 1.5s ease-in-out;
+}
+
+.project-card:hover > .project-image {
+  margin-bottom: 250px;
+}
+
+.project-description {
+  font-family: "Azeret Mono", monospace;
+  color: white;
+  line-height: 1.4;
+  width: 340px;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: all 1.5s ease-in-out;
+}
+
+.project-card:hover > .project-description {
+  margin-right: 280px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: -180px;
+  right: 30px;
+  font-family: "Azeret Mono", monospace;
+  transition: all 1.5s ease-in-out;
+}
+
+.project-links i {
+  color: white;
+  margin-left: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.project-links a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+  padding-right: 8px;
+  border-right: 2px solid white;
+}
+
+.hullabaloo-links a:hover {
+  border-right: 2px solid black;
+}
+
+.project-card:hover > .project-links {
+  top: 35px;
+  right: 40px;
+}
+
+.project-features-list {
+  font-family: "Azeret Mono", monospace;
+  font-size: 14px;
+  color: white;
+  width: 280px;
+  position: absolute;
+  top: -175px;
+  right: -180px;
+  transition: all 1.5s ease-in-out;
+}
+
+.project-features-title {
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  margin-bottom: 25px;
+}
+
+.project-card:hover > .project-features-list {
+  top: 115px;
+  right: 30px;
+}
+
+.project-card:hover > .hullabaloo-features {
+  top: 135px;
+}
+
+.sidewalk-features {
+  top: -180px;
+}
+
+.project-card:hover > .sidewalk-features {
+  top: 130px;
+  right: 55px;
+}
+
+.hullabaloo-description,
+.hullabaloo-features,
+.hullabaloo-links a,
+.hullabaloo-links i {
+  color: black;
+}
+
+.hullabaloo-features-title {
+  border-bottom: 2px solid black;
+}
+
+.project-techs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  position: absolute;
+  bottom: 0px;
+  right: -300px;
+  transition: all 1.5s ease-in-out;
+}
+
+.project-card:hover > .project-techs {
+  right: 50px;
+  bottom: 30px;
+}
+
+.project-card:hover > .hullabaloo-techs {
+  right: 40px;
+  bottom: 20px;
+}
+
+.project-techs-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hullabaloo-techs .project-techs-top {
+  width: 250px;
+}
+
+.project-techs-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-tech img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: auto;
+  margin: 10px 20px;
+}
+
+.project-tech {
+  color: white;
+  font-family: "Azeret Mono", monospace;
+  font-size: 12px;
+}
+
+.hullabaloo-tech {
+  color: black;
+}
+
+.project-tech div {
+  text-align: center;
+}
+
+.flask-tech div {
+  position: relative;
+  top: 2px;
+}
