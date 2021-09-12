@@ -199,6 +199,10 @@
     font-size: 14px;
   }
   .contact {
+    margin-top: -60px;
     margin-right: 0px;
+  }
+  .link-container {
+    padding-bottom: 40px;
   }
 }

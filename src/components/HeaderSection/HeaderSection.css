@@ -92,6 +92,7 @@
 
   .header-container {
     padding-top: 170px;
+    margin-bottom: -50px;
   }
 
   .header-image img {

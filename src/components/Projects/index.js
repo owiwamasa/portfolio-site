@@ -38,6 +38,7 @@ function Projects(){
                         <br></br>- Post your Artwork<br></br>
                         <br></br>- Send / Receive Work Requests<br></br>
                         <br></br>- AWS Image Upload<br></br>
+                        <br></br>- Sign up / in with email<br></br>
                         </div>
                     </div>
                     <div className='project-techs'>
@@ -97,6 +98,7 @@ function Projects(){
                         <br></br>- Comment on Episodes<br></br>
                         <br></br>- Dynamic search bar<br></br>
                         <br></br>- MP3 Player Tracks # of Plays<br></br>
+                        <br></br>- Sign up / in with email<br></br>
                         </div>
                     </div>
                     <div className='project-techs hullabaloo-techs'>
@@ -115,7 +117,7 @@ function Projects(){
                             </div>
                         </div>
                         <div className='project-techs-bottom'>
-                            <div className='project-tech hullabaloo-tech'>
+                            <div className='project-tech hullabaloo-tech express-tech'>
                                 <img src={express} alt='tech logo'/>
                                 <div>Express.js</div>
                             </div>
@@ -155,6 +157,7 @@ function Projects(){
                         <br></br>- Post Media to a spot<br></br>
                         <br></br>- Comment on Media Posts<br></br>
                         <br></br>- Dynamic search bar<br></br>
+                        <br></br>- Sign up / in with email<br></br>
                         </div>
                     </div>
                     <div className='project-techs'>
