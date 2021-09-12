@@ -70,3 +70,46 @@
     border-bottom: 2px solid white;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .dropdown i {
+    font-size: 30px;
+  }
+
+  .dropdown {
+    top: 55px;
+    right: 80px;
+  }
+
+  .dropdown-clicked {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .dropdown-options {
+    background-color: rgba(60, 60, 60, 0.95);
+    padding: 15px;
+    height: 150px;
+    width: 280px;
+    border-radius: 20px;
+    margin-right: -25px;
+  }
+
+  .dropdown-link:nth-of-type(1) {
+    left: 110px;
+    top: 50px;
+    font-size: 18px;
+  }
+
+  .dropdown-link:nth-of-type(2) {
+    left: 125px;
+    top: 105px;
+    font-size: 18px;
+  }
+
+  .dropdown-email {
+    left: 45px;
+    top: 165px;
+    font-size: 18px;
+  }
+}

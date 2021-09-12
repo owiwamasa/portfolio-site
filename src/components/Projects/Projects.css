@@ -312,3 +312,14 @@
   position: relative;
   top: 2px;
 }
+
+@media only screen and (max-width: 415px) {
+  .projects-header {
+    margin-left: 15px;
+  }
+
+  .project-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

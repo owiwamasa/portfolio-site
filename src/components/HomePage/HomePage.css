@@ -158,11 +158,47 @@
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .logo {
+    width: 50px;
+    height: auto;
+    top: 40px;
+  }
+}
+
 @media only screen and (max-width: 920px) {
   .email-contact {
     display: none;
   }
   .nav-link {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .link-buttons {
+    margin: 0;
+    margin-top: 65px;
+    width: 90%;
+  }
+
+  .link {
+    margin: 5px;
+    border: 2px solid white;
+  }
+
+  .link-box {
+    margin: 0 10px;
+  }
+
+  .link i {
+    font-size: 18px;
+  }
+
+  .link-label {
+    font-size: 14px;
+  }
+  .contact {
+    margin-right: 0px;
   }
 }
