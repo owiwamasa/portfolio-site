@@ -5,6 +5,7 @@ import Projects from '../Projects'
 import headshot from '../../skill-icons/headshot.png'
 import Scroll from 'react-scroll'
 import resume from '../../skill-icons/Iwamasa_Owen_Resume.pdf'
+import logo from '../../skill-icons/logo.png'
 
 function HomePage(){
     const Element  = Scroll.Element;
@@ -27,6 +28,7 @@ function HomePage(){
 
     return(
         <div>
+            <img className='logo' src={logo} alt='logo'/>
             <div className='nav'>
                 <div onClick={scrollProjects} className='nav-link'>Projects</div>
                 <div onClick={scrollSkills} className='nav-link'>Skills</div>

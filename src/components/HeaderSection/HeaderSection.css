@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
 .header-intro {
@@ -14,7 +14,7 @@
 .header-intro-2 {
   margin-left: 120px;
   font-size: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top: 15px;
 }
 

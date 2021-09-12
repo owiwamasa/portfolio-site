@@ -90,7 +90,7 @@
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  top: 50px;
+  top: 70px;
   right: 100px;
 }
 
@@ -114,9 +114,18 @@
 .nav-link:hover {
   padding-bottom: 5px;
   border-bottom: 3px solid white;
+  cursor: pointer;
 }
 
 .email-contact:hover {
   padding-bottom: 5px;
   border-bottom: 3px solid white;
+}
+
+.logo {
+  position: absolute;
+  width: 110px;
+  height: auto;
+  top: 30px;
+  left: 60px;
 }
