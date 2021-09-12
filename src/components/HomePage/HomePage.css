@@ -16,6 +16,26 @@
   padding-bottom: 100px;
 }
 
+.link-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 820px) {
+  .link-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .contact {
+    padding-top: 60px;
+    margin-bottom: -40px;
+  }
+  .link-buttons {
+    width: 100%;
+  }
+}
+
 .link {
   border: 4px solid white;
   border-radius: 100%;
@@ -128,4 +148,21 @@
   height: auto;
   top: 30px;
   left: 60px;
+}
+
+@media only screen and (max-width: 775px) {
+  .logo {
+    width: 90px;
+    height: auto;
+    top: 40px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .email-contact {
+    display: none;
+  }
+  .nav-link {
+    display: none;
+  }
 }

@@ -1,0 +1,72 @@
+@media only screen and (min-width: 921px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .dropdown i {
+    color: white;
+    font-size: 55px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+  }
+
+  .dropdown-clicked {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 25px;
+    font-weight: 500;
+    right: 80px;
+  }
+
+  .dropdown-clicked i {
+    align-self: flex-end;
+  }
+
+  .dropdown-options {
+    background-color: rgba(60, 60, 60, 0.95);
+    padding: 30px;
+    height: 200px;
+    width: 340px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+
+  .dropdown-email,
+  .dropdown-link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+  }
+
+  .dropdown-link:nth-of-type(1) {
+    left: 125px;
+    top: 100px;
+  }
+
+  .dropdown-link:nth-of-type(2) {
+    left: 145px;
+    top: 170px;
+  }
+
+  .dropdown-email {
+    left: 45px;
+    top: 240px;
+  }
+
+  .dropdown-link:hover,
+  .dropdown-email:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid white;
+  }
+}
