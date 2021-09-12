@@ -72,4 +72,12 @@
   .skills-header {
     margin-left: 15px;
   }
+  .sqlalchemy img {
+    width: 100px;
+    height: auto;
+  }
+  .sqlalchemy {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

@@ -87,7 +87,7 @@ function SkillsPage(){
                 </div>
                 }
                 {show5 ?
-                <div className='skills-img'>
+                <div className='skills-img flask-img'>
                     <img src={flask} alt='skill logo'/>
                     <div className='skill-name flask-name'>Flask</div>
                 </div>:

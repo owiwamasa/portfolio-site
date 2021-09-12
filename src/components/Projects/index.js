@@ -42,7 +42,7 @@ function Projects(){
                     </div>
                     <div className='project-techs'>
                         <div className='project-techs-top'>
-                            <div className='project-tech'>
+                            <div className='project-tech js-tech'>
                                 <img src={js} alt='tech logo'/>
                                 <div>JavaScript</div>
                             </div>
@@ -101,7 +101,7 @@ function Projects(){
                     </div>
                     <div className='project-techs hullabaloo-techs'>
                         <div className='project-techs-top'>
-                            <div className='project-tech hullabaloo-tech'>
+                            <div className='project-tech hullabaloo-tech js-tech'>
                                 <img src={js} alt='tech logo'/>
                                 <div>JavaScript</div>
                             </div>
@@ -159,7 +159,7 @@ function Projects(){
                     </div>
                     <div className='project-techs'>
                         <div className='project-techs-top'>
-                            <div className='project-tech'>
+                            <div className='project-tech js-tech'>
                                 <img src={js} alt='tech logo'/>
                                 <div>JavaScript</div>
                             </div>
