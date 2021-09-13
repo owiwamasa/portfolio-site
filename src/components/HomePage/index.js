@@ -28,7 +28,7 @@ function HomePage(){
 
 
     return(
-        <div>
+        <div className='home-page'>
             <img className='logo' src={logo} alt='logo'/>
             <DropDown scrollProjects={scrollProjects} scrollSkills={scrollSkills}/>
             <div className='nav'>
