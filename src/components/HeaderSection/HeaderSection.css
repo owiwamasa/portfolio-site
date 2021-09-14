@@ -80,7 +80,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 550px) {
   .header-intro {
     font-size: 20px;
   }
