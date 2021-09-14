@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .skills-img {
@@ -81,5 +82,10 @@
 @media only screen and (max-width: 700px) {
   .skills-header {
     margin-left: 15px;
+  }
+
+  .skills-container {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
