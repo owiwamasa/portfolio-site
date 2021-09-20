@@ -68,14 +68,14 @@ function HomePage(){
                         </div>
                         <div className='link-label'>GitHub</div>
                     </div>
-                    <div className='link-box'>
+                    {/* <div className='link-box'>
                         <div className='link'>
                             <a href='https://angel.co/u/owen-iwamasa'>
                                 <i class="fab fa-angellist"></i>
                             </a>
                         </div>
                         <div className='link-label'>AngelList</div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Element name="scrollToSkills">
