@@ -6,6 +6,9 @@ import redux from '../../skill-icons/redux.svg'
 import css from '../../skill-icons/css.svg'
 import express from '../../skill-icons/express.svg'
 import flask from '../../skill-icons/flask.png'
+import postgresql from '../../skill-icons/postgresql.svg'
+import pug from '../../skill-icons/pug.png'
+import nodejs from '../../skill-icons/nodejs-icon.png'
 
 function Projects(){
     return(
@@ -192,34 +195,64 @@ function Projects(){
                     </div>
                 </div>
 
-                {/* //OTHER CARD */}
-                {/* <div className='project-card'>
-                    <div className='project-image'>
-                        <img src='https://i.imgur.com/0Szj0Wh.png' alt='project'/>
-                        <div className='project-title'>Canvas</div>
+                {/* //GOOD TUNES */}
+                <div className='project-card goodTunes-card'>
+                    <div className='project-image goodTunes-image'>
+                        <img src='https://i.imgur.com/sf38Uhb.png' alt='project'/>
                     </div>
-                    <div className='project-page'>
-                        <img src='https://i.imgur.com/r1m0eqX.jpeg' alt='project page'/>
+                    <div className='project-page canvas-page'>
+                        <img src='https://i.imgur.com/J3mTMmi.png' alt='project page'/>
                     </div>
-                    <div className='project-description'>Discover and hire freelance artists. Or, create an 'Artist Page' to receive work inquiries.</div>
-                    <div className='project-links'>
-                        <a href='https://canvas-proj.herokuapp.com/artist-pages/3'>Live App
+                    <div className='project-description sidewalk-description'>Discover and create collections of music albums.</div>
+                    <div className='project-links sidewalk-links'>
+                        <a href='https://good-tunes.herokuapp.com/'>Live App
                             <i class="fas fa-globe"></i>
                         </a>
-                        <a href='https://github.com/owiwamasa/canvas'>GitHub
+                        <a href='https://github.com/chrisbh4/GoodTunes'>GitHub
                             <i className="fab fa-github" />
                         </a>
                     </div>
-                    <div className='project-features-list'>
-                        <div className='project-features-title'>Features List</div>
-                        <div>- Create an Artist Page<br></br>
-                        <br></br>- Message Artists<br></br>
-                        <br></br>- Post your Artwork<br></br>
-                        <br></br>- Send / Receive Work Requests<br></br>
-                        <br></br>- AWS Image Upload<br></br>
+                    <div className='project-features-list canvas-features'>
+                        <div className='project-features-title sidewalk-features-title'>Features List</div>
+                        <div>- Connected to Discogs API<br></br>
+                        <br></br>- Create Shelves to add albums<br></br>
+                        <br></br>- Search by artist or album<br></br>
+                        <br></br>- Leave reviews for albums<br></br>
+                        <br></br>- Discover music videos<br></br>
+                        <br></br>- Sign up / in with email<br></br>
                         </div>
                     </div>
-                </div> */}
+                    <div className='project-techs canvas-techs'>
+                        <div className='project-techs-top'>
+                            <div className='project-tech canvas-tech js-tech'>
+                                <img src={js} alt='tech logo'/>
+                                <div>JavaScript</div>
+                            </div>
+                            <div className='project-tech canvas-tech'>
+                                <img src={nodejs} alt='tech logo'/>
+                                <div>Node.js</div>
+                            </div>
+                            <div className='project-tech canvas-tech'>
+                                <img src={pug} alt='tech logo'/>
+                                <div>Pug</div>
+                            </div>
+                        </div>
+                        <div className='project-techs-bottom'>
+                            <div className='project-tech canvas-tech express-tech'>
+                                <img src={express} alt='tech logo'/>
+                                <div>Express.js</div>
+                            </div>
+                            <div className='project-tech canvas-tech'>
+                                <img src={css} alt='tech logo'/>
+                                <div>CSS3</div>
+                            </div>
+                            <div className='project-tech canvas-tech'>
+                                <img src={postgresql} alt='tech logo'/>
+                                <div>PostgreSQL</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
