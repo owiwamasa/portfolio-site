@@ -214,7 +214,7 @@ function Projects() {
         </div>
 
         {/* //GOOD TUNES */}
-        <div className="project-card goodTunes-card">
+        {/* <div className="project-card goodTunes-card">
           <div className="project-image goodTunes-image">
             <img src="https://i.imgur.com/sf38Uhb.png" alt="project" />
           </div>
@@ -277,7 +277,7 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
