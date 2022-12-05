@@ -123,12 +123,17 @@
   position: absolute;
 }
 
-.nav-link:nth-of-type(2) {
+.nav-link:nth-of-type(3) {
   right: 260px;
 }
 
-.nav-link:nth-of-type(1) {
+.nav-link:nth-of-type(2) {
   right: 400px;
+}
+
+.nav-link:nth-of-type(1) {
+  right: 560px;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
@@ -172,7 +177,7 @@
   }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1050px) {
   .email-contact {
     display: none;
   }

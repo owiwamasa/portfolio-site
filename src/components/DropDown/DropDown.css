@@ -1,10 +1,10 @@
-@media only screen and (min-width: 921px) {
+@media only screen and (min-width: 1051px) {
   .dropdown {
     display: none;
   }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1050px) {
   .dropdown i {
     color: white;
     font-size: 55px;
@@ -35,7 +35,7 @@
   .dropdown-options {
     background-color: rgba(60, 60, 60, 0.95);
     padding: 30px;
-    height: 200px;
+    height: 270px;
     width: 340px;
     border-radius: 20px;
     margin-right: 20px;
@@ -50,7 +50,7 @@
   }
 
   .dropdown-link:nth-of-type(1) {
-    left: 125px;
+    left: 80px;
     top: 100px;
   }
 
@@ -59,9 +59,14 @@
     top: 170px;
   }
 
+  .dropdown-link:nth-of-type(3) {
+    left: 145px;
+    top: 240px;
+  }
+
   .dropdown-email {
     left: 45px;
-    top: 240px;
+    top: 310px;
   }
 
   .dropdown-link:hover,

@@ -1,0 +1,13 @@
+.experience-header {
+  text-align: left;
+  margin-left: 63px;
+  font-family: "Azeret Mono", monospace;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.66);
+  padding-bottom: 20px;
+  width: 90%;
+  color: white;
+  margin-bottom: 30px;
+}
