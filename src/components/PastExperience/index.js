@@ -76,9 +76,13 @@ const PastExperience = () => {
                   [theme.breakpoints.down(950)]: {
                     marginLeft: "16px",
                   },
+                  "& a": {
+                    color: "white",
+                    textDecoration: "none",
+                  },
                 }}
               >
-                @ Mathison
+                <a href="https://www.mathison.io/">@ Mathison</a>
               </HeaderText>
             </Box>
             <BodyText sx={{ whitespace: "nowrap", marginTop: "24px" }}>
@@ -159,9 +163,13 @@ const PastExperience = () => {
                   [theme.breakpoints.down(950)]: {
                     marginLeft: "16px",
                   },
+                  "& a": {
+                    color: "white",
+                    textDecoration: "none",
+                  },
                 }}
               >
-                @ Krool Toys
+                <a href="https://www.krooltoysstudio.com/">@ Krool Toys</a>
               </HeaderText>
             </Box>
             <BodyText>{"(Freelance)"}</BodyText>
@@ -235,9 +243,15 @@ const PastExperience = () => {
                   [theme.breakpoints.down(950)]: {
                     marginLeft: "16px",
                   },
+                  "& a": {
+                    color: "white",
+                    textDecoration: "none",
+                  },
                 }}
               >
-                @ Reclaim Foundation
+                <a href="https://www.reclaimfoundation.org/">
+                  @ Reclaim Foundation
+                </a>
               </HeaderText>
             </Box>
             <BodyText>{"(Volunteer)"}</BodyText>
