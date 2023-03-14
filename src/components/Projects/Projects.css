@@ -51,6 +51,10 @@
   margin: 40px;
 }
 
+.nets-card {
+  background-color: #505050;
+}
+
 .hullabaloo-card {
   background-color: #f4ff2c;
 }
@@ -103,6 +107,12 @@
 .project-image img {
   width: 250px;
   height: auto;
+}
+
+.nets-image img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 .goodTunes-image img {

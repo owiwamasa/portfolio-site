@@ -7,14 +7,81 @@ import css from "../../skill-icons/css.svg";
 import express from "../../skill-icons/express.svg";
 import flask from "../../skill-icons/flask.png";
 import postgresql from "../../skill-icons/postgresql.svg";
-import pug from "../../skill-icons/pug.png";
+// import pug from "../../skill-icons/pug.png";
 import nodejs from "../../skill-icons/nodejs-icon.png";
+import nets from "../../skill-icons/nets-project.png";
+import netsIcon from "../../skill-icons/BN-icon.png";
 
 function Projects() {
   return (
     <div className="projects">
       <div className="projects-header">Projects</div>
       <div className="projects-container">
+        {/* //BROOKLYN NETS CARD */}
+        <div className="project-card nets-card">
+          {/* <div className='project-title'>Canvas</div> */}
+          <div className="project-image nets-image">
+            <img src={netsIcon} alt="project" />
+          </div>
+          <div className="project-page">
+            <img src={nets} alt="project page" />
+          </div>
+          <div className="project-description">
+            Evaluate a lineup from the Nets roster against the league average
+            and in a shot chart.
+          </div>
+          <div className="project-links">
+            <a href="https://brooklyn-nets-lineup-evaluator.vercel.app/">
+              Live App
+              <i class="fas fa-globe"></i>
+            </a>
+            <a href="https://github.com/owiwamasa/nets-lineup-builder">
+              GitHub
+              <i className="fab fa-github" />
+            </a>
+          </div>
+          <div className="project-features-list">
+            <div className="project-features-title">Features List</div>
+            <div>
+              - Create a lineup<br></br>
+              <br></br>- Hexbin Shot Chart<br></br>
+              <br></br>- Compare stats to NBA average<br></br>
+              <br></br>- Data from NBA Shots DB<br></br>
+              <br></br>- 2021-22 Nets roster<br></br>
+            </div>
+          </div>
+          <div className="project-techs">
+            <div className="project-techs-top">
+              <div className="project-tech js-tech">
+                <img src={js} alt="tech logo" />
+                <div>JavaScript</div>
+              </div>
+              <div className="project-tech">
+                <img src={nodejs} alt="tech logo" />
+                <div>Node.js</div>
+              </div>
+              <div className="project-tech">
+                <img src={react} alt="tech logo" />
+                <div>React</div>
+              </div>
+            </div>
+            <div className="project-techs-bottom">
+              <div className="project-tech">
+                <img src={postgresql} alt="tech logo" />
+                <div>PostgreSQL</div>
+              </div>
+              <div className="project-tech">
+                <img src={express} alt="tech logo" />
+                <div>Express</div>
+              </div>
+              <div className="project-tech flask-tech">
+                <img src={css} alt="tech logo" />
+                <div>CSS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* //CANVAS CARD */}
         <div className="project-card">
           {/* <div className='project-title'>Canvas</div> */}
